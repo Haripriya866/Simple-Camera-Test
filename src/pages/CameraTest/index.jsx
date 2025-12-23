@@ -40,7 +40,7 @@ class CameraTest extends Component {
       
       if (error.name === 'NotAllowedError') {
         this.setState({
-          statusMessage: 'Camera access denied. Please enable camera permissions.'
+          statusMessage: 'Camera access denied. Please enable camera permissions and refresh.'
         });
       } else if (error.name === 'NotFoundError') {
         this.setState({
