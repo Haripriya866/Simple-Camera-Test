@@ -1,0 +1,38 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-main-heading{
+    font-size: 32px;
+    font-weight: 500;
+}
+@media screen and (min-width:768px){
+    .home-main-heading{
+        font-size: 38px;
+    }
+}
+.camera-test-button{
+    color:#FFFFFF;
+    background-color: #000000;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    width:170px;
+    height: 38px;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.camera-test-button:hover {
+  background-color: #111111;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+}
+
+.camera-test-button:focus-visible {
+  outline: 2px solid #FFFFFF;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+}
