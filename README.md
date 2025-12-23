@@ -6,7 +6,7 @@ Build a small frontend app that verifies browser camera access, basic media stre
 
 ## Live Demo
 
-Link: 
+Link: https://simple-camera-test.vercel.app
 
 ## Tech Stack
 
